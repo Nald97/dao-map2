@@ -1,0 +1,18 @@
+.App {
+  /* background-image: url("../public/imgs/atlantis.png"); */
+  background: black !important;
+  background-size: cover; /* or 'contain' depending on what you need */
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh; /* full height */
+  width: 100%; /* full width */
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
